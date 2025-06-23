@@ -59,6 +59,13 @@ p {
     color: rgba(white, .7);
 }
 
+img.scalata {
+    width: 875px; transform: scaleX(-1);
+    }
+    @media all and (min-width: 1920px;) {
+        img.scalata {width: 1230px;}
+}
+
 section {
     padding: 100px 0;
 }
